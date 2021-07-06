@@ -1,6 +1,7 @@
 package mediasoup
 
 type internalData struct {
+	RoomId         string `json:"RoomId,omitempty"`
 	RouterId       string `json:"routerId,omitempty"`
 	TransportId    string `json:"transportId,omitempty"`
 	ProducerId     string `json:"producerId,omitempty"`

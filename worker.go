@@ -454,10 +454,10 @@ func (w *Worker) UpdateSettings(settings WorkerUpdateableSettings) error {
 }
 
 // CreateRouter creates a router.
-func (w *Worker) CreateRouter(options RouterOptions) (router *Router, err error) {
+func (w *Worker) CreateRouter(options RouterOptions, roomId string) (router *Router, err error) {
 	w.logger.Debug("createRouter()")
 
-	internal := internalData{RouterId: uuid.NewV4().String()}
+	internal := internalData{RouterId: uuid.NewV4().String(), RoomId: roomId}
 
 	rsp := w.channel.Request("worker.createRouter", internal, nil)
 	if err = rsp.Err(); err != nil {
