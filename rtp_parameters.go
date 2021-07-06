@@ -3,7 +3,7 @@ package mediasoup
 import (
 	"strings"
 
-	"github.com/jiyeyuran/mediasoup-go/h264"
+	"github.com/superlike/mediasoup-go/h264"
 )
 
 /**

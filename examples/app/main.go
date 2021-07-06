@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/jiyeyuran/mediasoup-go"
-	"github.com/jiyeyuran/mediasoup-go/h264"
+	"github.com/superlike/mediasoup-go"
+	"github.com/superlike/mediasoup-go/h264"
 )
 
 var logger = mediasoup.NewLogger("ExampleApp")

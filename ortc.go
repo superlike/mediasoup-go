@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/jiyeyuran/mediasoup-go/h264"
+	"github.com/superlike/mediasoup-go/h264"
 )
 
 var DYNAMIC_PAYLOAD_TYPES = [...]byte{

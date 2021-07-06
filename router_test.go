@@ -3,7 +3,7 @@ package mediasoup
 import (
 	"testing"
 
-	"github.com/jiyeyuran/mediasoup-go/h264"
+	"github.com/superlike/mediasoup-go/h264"
 	"github.com/stretchr/testify/assert"
 )
 
