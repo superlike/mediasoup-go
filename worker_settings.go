@@ -19,6 +19,11 @@ type WorkerSettings struct {
 	LogTags []WorkerLogTag `json:"logTags,omitempty"`
 
 	/**
+	 * single udp port for rtc, default 8000.
+	 */
+	UdpPort uint16 `json:"udpPort,omitempty"`
+
+	/**
 	 * Minimun RTC port for ICE, DTLS, RTP, etc. Default 10000.
 	 */
 	RtcMinPort uint16 `json:"rtcMinPort,omitempty"`
